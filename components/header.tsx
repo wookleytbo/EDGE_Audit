@@ -11,7 +11,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import { Avatar, AvatarFallback } from "@/components/ui/avatar"
-import { FileText, User, LogOut } from "lucide-react"
+import { LogOut } from "lucide-react"
 import { useAuth } from "@/lib/auth-helpers"
 import { useRouter } from "next/navigation"
 
@@ -25,32 +25,46 @@ export function Header() {
   }
 
   return (
-    <header className="border-b border-border bg-card">
+    <header className="border-b border-border bg-card/50 backdrop-blur-sm">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2 text-xl font-bold text-foreground">
-          <FileText className="h-6 w-6 text-primary" />
-          EDGE Audit
+        <Link href="/" className="text-2xl font-bold tracking-tight text-foreground">
+          EDGE
         </Link>
         <nav className="hidden md:flex items-center gap-6">
-          <Link href="/templates" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
+          <Link
+            href="/templates"
+            className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+          >
             Templates
           </Link>
-          <Link href="/builder" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
+          <Link
+            href="/builder"
+            className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+          >
             Form Builder
           </Link>
           <Link
             href="/submissions"
-            className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+            className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
           >
             Submissions
           </Link>
-          <Link href="/analytics" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
+          <Link
+            href="/analytics"
+            className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+          >
             Analytics
           </Link>
-          <Link href="/scheduling" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
+          <Link
+            href="/scheduling"
+            className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+          >
             Scheduling
           </Link>
-          <Link href="/work-orders" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
+          <Link
+            href="/work-orders"
+            className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+          >
             Work Orders
           </Link>
         </nav>

@@ -15,9 +15,9 @@ export default function HomePage() {
           <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6 text-balance">
             Professional Audit Management Platform
           </h1>
-          <p className="text-lg md:text-xl text-muted-foreground mb-8 text-pretty">
-            Streamline your audit processes with custom forms, real-time data collection, and comprehensive audit management. 
-            Built for compliance, safety, and quality assurance professionals.
+          <p className="text-lg md:text-xl text-muted-foreground mb-8 text-pretty leading-relaxed">
+            Streamline your audit processes with custom forms, real-time data collection, and comprehensive audit
+            management. Built for compliance, safety, and quality assurance professionals.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button size="lg" asChild className="w-full sm:w-auto">
@@ -31,13 +31,15 @@ export default function HomePage() {
       </section>
 
       {/* Features Section */}
-      <section className="bg-muted py-20">
+      <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4 text-balance">
               Comprehensive Audit Management Solutions
             </h2>
-            <p className="text-lg text-muted-foreground text-pretty">Professional tools designed for audit professionals</p>
+            <p className="text-lg text-muted-foreground text-pretty">
+              Professional tools designed for audit professionals
+            </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
@@ -48,7 +50,8 @@ export default function HomePage() {
                 </div>
                 <h3 className="text-xl font-semibold text-card-foreground mb-2">Custom Audit Forms</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Create professional audit forms in minutes with our intuitive drag-and-drop interface. No coding required.
+                  Create professional audit forms in minutes with our intuitive drag-and-drop interface. No coding
+                  required.
                 </p>
               </CardContent>
             </Card>
@@ -60,7 +63,8 @@ export default function HomePage() {
                 </div>
                 <h3 className="text-xl font-semibold text-card-foreground mb-2">Evidence Documentation</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Capture images and evidence directly in your audit forms for comprehensive documentation and compliance.
+                  Capture images and evidence directly in your audit forms for comprehensive documentation and
+                  compliance.
                 </p>
               </CardContent>
             </Card>
@@ -119,8 +123,12 @@ export default function HomePage() {
       {/* Use Cases Section */}
       <section className="container mx-auto px-4 py-20">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4 text-balance">Built for Every Audit Need</h2>
-          <p className="text-lg text-muted-foreground text-pretty">Trusted by audit professionals across multiple industries</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4 text-balance">
+            Built for Every Audit Need
+          </h2>
+          <p className="text-lg text-muted-foreground text-pretty">
+            Trusted by audit professionals across multiple industries
+          </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
@@ -144,44 +152,46 @@ export default function HomePage() {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-primary text-primary-foreground py-20">
+      <section className="bg-card border-y border-primary/20 py-20">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance">Ready to Streamline Your Audit Process?</h2>
-          <p className="text-lg mb-8 opacity-90 text-pretty max-w-2xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance text-foreground">
+            Ready to Streamline Your Audit Process?
+          </h2>
+          <p className="text-lg mb-8 text-muted-foreground text-pretty max-w-2xl mx-auto">
             Join audit professionals using EDGE Audit to improve efficiency, compliance, and data accuracy
           </p>
-          <Button size="lg" variant="secondary" asChild>
+          <Button size="lg" asChild>
             <Link href="/builder">Get Started</Link>
           </Button>
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="border-t border-border bg-card py-12">
+      <footer className="border-t border-border bg-card/50 py-12">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center gap-2 text-xl font-bold text-foreground mb-4">
                 <FileText className="h-6 w-6 text-primary" />
-                FieldForm
+                EDGE Audit
               </div>
-              <p className="text-sm text-muted-foreground">Professional form builder for field teams</p>
+              <p className="text-sm text-muted-foreground">Professional audit management platform</p>
             </div>
             <div>
               <h3 className="font-semibold text-foreground mb-4">Product</h3>
               <ul className="space-y-2 text-sm">
                 <li>
-                  <Link href="/templates" className="text-muted-foreground hover:text-foreground">
+                  <Link href="/templates" className="text-muted-foreground hover:text-foreground transition-colors">
                     Templates
                   </Link>
                 </li>
                 <li>
-                  <Link href="/builder" className="text-muted-foreground hover:text-foreground">
+                  <Link href="/builder" className="text-muted-foreground hover:text-foreground transition-colors">
                     Form Builder
                   </Link>
                 </li>
                 <li>
-                  <Link href="/pricing" className="text-muted-foreground hover:text-foreground">
+                  <Link href="/pricing" className="text-muted-foreground hover:text-foreground transition-colors">
                     Pricing
                   </Link>
                 </li>
@@ -191,17 +201,17 @@ export default function HomePage() {
               <h3 className="font-semibold text-foreground mb-4">Resources</h3>
               <ul className="space-y-2 text-sm">
                 <li>
-                  <Link href="/docs" className="text-muted-foreground hover:text-foreground">
+                  <Link href="/docs" className="text-muted-foreground hover:text-foreground transition-colors">
                     Documentation
                   </Link>
                 </li>
                 <li>
-                  <Link href="/help" className="text-muted-foreground hover:text-foreground">
+                  <Link href="/help" className="text-muted-foreground hover:text-foreground transition-colors">
                     Help Center
                   </Link>
                 </li>
                 <li>
-                  <Link href="/blog" className="text-muted-foreground hover:text-foreground">
+                  <Link href="/blog" className="text-muted-foreground hover:text-foreground transition-colors">
                     Blog
                   </Link>
                 </li>
@@ -211,24 +221,24 @@ export default function HomePage() {
               <h3 className="font-semibold text-foreground mb-4">Company</h3>
               <ul className="space-y-2 text-sm">
                 <li>
-                  <Link href="/about" className="text-muted-foreground hover:text-foreground">
+                  <Link href="/about" className="text-muted-foreground hover:text-foreground transition-colors">
                     About Us
                   </Link>
                 </li>
                 <li>
-                  <Link href="/contact" className="text-muted-foreground hover:text-foreground">
+                  <Link href="/contact" className="text-muted-foreground hover:text-foreground transition-colors">
                     Contact
                   </Link>
                 </li>
                 <li>
-                  <Link href="/privacy" className="text-muted-foreground hover:text-foreground">
+                  <Link href="/privacy" className="text-muted-foreground hover:text-foreground transition-colors">
                     Privacy
                   </Link>
                 </li>
               </ul>
             </div>
           </div>
-            <div className="mt-12 pt-8 border-t border-border text-center text-sm text-muted-foreground">
+          <div className="mt-12 pt-8 border-t border-border text-center text-sm text-muted-foreground">
             <p>&copy; 2025 EDGE Audit. All rights reserved.</p>
           </div>
         </div>
