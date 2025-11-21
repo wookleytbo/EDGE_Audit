@@ -29,7 +29,7 @@ export function Header() {
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 text-xl font-bold text-foreground">
           <FileText className="h-6 w-6 text-primary" />
-          FieldForm
+          EDGE Audit
         </Link>
         <nav className="hidden md:flex items-center gap-6">
           <Link href="/templates" className="text-sm font-medium text-foreground hover:text-primary transition-colors">

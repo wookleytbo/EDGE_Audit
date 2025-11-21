@@ -13,15 +13,15 @@ export default function HomePage() {
       <section className="container mx-auto px-4 py-20 md:py-32">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6 text-balance">
-            Build Custom Forms for Field Work Without Coding
+            Professional Audit Management Platform
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground mb-8 text-pretty">
-            Create powerful mobile forms, collect data in real-time, and streamline your field operations. Perfect for
-            construction, inspections, maintenance, and more.
+            Streamline your audit processes with custom forms, real-time data collection, and comprehensive audit management. 
+            Built for compliance, safety, and quality assurance professionals.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button size="lg" asChild className="w-full sm:w-auto">
-              <Link href="/builder">Start Building Free</Link>
+              <Link href="/builder">Create Audit Form</Link>
             </Button>
             <Button size="lg" variant="outline" asChild className="w-full sm:w-auto bg-transparent">
               <Link href="/templates">View Templates</Link>
@@ -35,9 +35,9 @@ export default function HomePage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4 text-balance">
-              Everything You Need for Field Data Collection
+              Comprehensive Audit Management Solutions
             </h2>
-            <p className="text-lg text-muted-foreground text-pretty">Powerful features designed for field teams</p>
+            <p className="text-lg text-muted-foreground text-pretty">Professional tools designed for audit professionals</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
@@ -46,9 +46,9 @@ export default function HomePage() {
                 <div className="rounded-lg bg-primary/10 w-12 h-12 flex items-center justify-center mb-4">
                   <FileText className="h-6 w-6 text-primary" />
                 </div>
-                <h3 className="text-xl font-semibold text-card-foreground mb-2">Drag-and-Drop Builder</h3>
+                <h3 className="text-xl font-semibold text-card-foreground mb-2">Custom Audit Forms</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Create custom forms in minutes with our intuitive drag-and-drop interface. No coding required.
+                  Create professional audit forms in minutes with our intuitive drag-and-drop interface. No coding required.
                 </p>
               </CardContent>
             </Card>
@@ -58,9 +58,9 @@ export default function HomePage() {
                 <div className="rounded-lg bg-primary/10 w-12 h-12 flex items-center justify-center mb-4">
                   <ImageIcon className="h-6 w-6 text-primary" />
                 </div>
-                <h3 className="text-xl font-semibold text-card-foreground mb-2">Photo Capture</h3>
+                <h3 className="text-xl font-semibold text-card-foreground mb-2">Evidence Documentation</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Capture images directly in your forms for visual documentation and quality control.
+                  Capture images and evidence directly in your audit forms for comprehensive documentation and compliance.
                 </p>
               </CardContent>
             </Card>
@@ -72,7 +72,7 @@ export default function HomePage() {
                 </div>
                 <h3 className="text-xl font-semibold text-card-foreground mb-2">Digital Signatures</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Get approvals and sign-offs instantly with digital signature capture.
+                  Get audit approvals and sign-offs instantly with secure digital signature capture.
                 </p>
               </CardContent>
             </Card>
@@ -82,9 +82,9 @@ export default function HomePage() {
                 <div className="rounded-lg bg-primary/10 w-12 h-12 flex items-center justify-center mb-4">
                   <Database className="h-6 w-6 text-primary" />
                 </div>
-                <h3 className="text-xl font-semibold text-card-foreground mb-2">Cloud Storage</h3>
+                <h3 className="text-xl font-semibold text-card-foreground mb-2">Secure Cloud Storage</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  All data is automatically synced to the cloud. Access from anywhere, anytime.
+                  All audit data is automatically synced to secure cloud storage. Access from anywhere, anytime.
                 </p>
               </CardContent>
             </Card>
@@ -96,7 +96,7 @@ export default function HomePage() {
                 </div>
                 <h3 className="text-xl font-semibold text-card-foreground mb-2">Real-Time Sync</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Data syncs instantly as forms are completed. Get immediate access to submissions.
+                  Audit data syncs instantly as forms are completed. Get immediate access to all submissions.
                 </p>
               </CardContent>
             </Card>
@@ -108,7 +108,7 @@ export default function HomePage() {
                 </div>
                 <h3 className="text-xl font-semibold text-card-foreground mb-2">Team Collaboration</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Share forms with your team, assign tasks, and track completion status.
+                  Share audit forms with your team, assign audit tasks, and track completion status.
                 </p>
               </CardContent>
             </Card>
@@ -119,20 +119,20 @@ export default function HomePage() {
       {/* Use Cases Section */}
       <section className="container mx-auto px-4 py-20">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4 text-balance">Built for Every Industry</h2>
-          <p className="text-lg text-muted-foreground text-pretty">Trusted by field teams across multiple industries</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4 text-balance">Built for Every Audit Need</h2>
+          <p className="text-lg text-muted-foreground text-pretty">Trusted by audit professionals across multiple industries</p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
           {[
-            "Construction",
-            "Field Services",
-            "Fire & Life Safety",
-            "Manufacturing",
-            "Oil & Gas",
-            "Transportation",
-            "Electrical",
-            "Plumbing",
+            "Compliance Audits",
+            "Safety Audits",
+            "Quality Assurance",
+            "Financial Audits",
+            "Environmental Audits",
+            "Security Audits",
+            "Process Audits",
+            "Risk Assessments",
           ].map((industry) => (
             <Card key={industry}>
               <CardContent className="pt-6">
@@ -146,12 +146,12 @@ export default function HomePage() {
       {/* CTA Section */}
       <section className="bg-primary text-primary-foreground py-20">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance">Ready to Digitize Your Field Work?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance">Ready to Streamline Your Audit Process?</h2>
           <p className="text-lg mb-8 opacity-90 text-pretty max-w-2xl mx-auto">
-            Join thousands of teams using FieldForm to improve efficiency and data accuracy
+            Join audit professionals using EDGE Audit to improve efficiency, compliance, and data accuracy
           </p>
           <Button size="lg" variant="secondary" asChild>
-            <Link href="/builder">Start Free Trial</Link>
+            <Link href="/builder">Get Started</Link>
           </Button>
         </div>
       </section>
@@ -228,8 +228,8 @@ export default function HomePage() {
               </ul>
             </div>
           </div>
-          <div className="mt-12 pt-8 border-t border-border text-center text-sm text-muted-foreground">
-            <p>&copy; 2025 FieldForm. All rights reserved.</p>
+            <div className="mt-12 pt-8 border-t border-border text-center text-sm text-muted-foreground">
+            <p>&copy; 2025 EDGE Audit. All rights reserved.</p>
           </div>
         </div>
       </footer>

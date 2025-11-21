@@ -1,6 +1,6 @@
-# FieldForm vs GoCanvas Feature Comparison
+# EDGE Audit vs GoCanvas Feature Comparison
 
-Based on [GoCanvas's features](https://www.gocanvas.com/demo), here's how our implementation compares:
+Based on [GoCanvas's features](https://www.gocanvas.com/demo), here's how EDGE Audit compares:
 
 ## ✅ Implemented Features (Matching GoCanvas)
 

@@ -1,6 +1,6 @@
-# FieldForm - Mobile Form Builder for Field Work
+# EDGE Audit - Professional Audit Management Platform
 
-A comprehensive form builder application inspired by GoCanvas, built with Next.js 16, React 19, and TypeScript. Create custom forms, collect data in real-time, and streamline your field operations.
+A comprehensive audit management platform built with Next.js 16, React 19, and TypeScript. Streamline your audit processes with custom forms, real-time data collection, and comprehensive audit management.
 
 ## 🚀 Features
 
@@ -220,16 +220,14 @@ This project is open source and available under the MIT License.
 
 ## 🙏 Acknowledgments
 
-- Inspired by [GoCanvas](https://www.gocanvas.com)
 - Built with [Next.js](https://nextjs.org)
 - UI components from [shadcn/ui](https://ui.shadcn.com)
 - Icons from [Lucide](https://lucide.dev)
-
-## 📊 Feature Comparison
-
-See [GOCANVAS_COMPARISON.md](./GOCANVAS_COMPARISON.md) for a detailed comparison with GoCanvas features.
+- Design inspiration from [PAC Group](https://www.pacgroup.com)
 
 ---
+
+**EDGE Audit - Professional Audit Management Platform**
 
 **Built with ❤️ using Next.js and TypeScript**
 

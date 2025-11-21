@@ -9,10 +9,9 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  // <CHANGE> Updated metadata for form builder app
-  title: "FieldForm - Mobile Form Builder for Field Work",
-  description: "Build custom forms, collect data, and manage field work efficiently without coding",
-  generator: "v0.app",
+  title: "EDGE Audit - Professional Audit Management Platform",
+  description: "Streamline your audit processes with custom forms, real-time data collection, and comprehensive audit management",
+  generator: "EDGE Audit",
   icons: {
     icon: [
       {
